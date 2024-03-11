@@ -5,7 +5,7 @@ import '../index.css';
 const Experience = () => {
   return (
     <div className="content">
-      <h2 className="section-heading">React.js Revamp & Performance Enhancement</h2>
+      <h1 className="section-heading">React.js Revamp & Performance Enhancement</h1>
       <ul>
         <li className="experience-card">
           <h3 className="section-heading">Transformed legacy Vanilla JavaScript codebase into React.js</h3>
