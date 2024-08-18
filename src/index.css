@@ -1,13 +1,27 @@
 /* commonStyles.css */
+
+.nav-link {
+  color: black;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-link.active {
+  color: red; /* Change color when active */
+}
+
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
 }
-.content{
+
+.exp-content,
+.skill-content,
+.projects-content {
+  scroll-margin-top: 181px;
   max-width: 100%;
-  width: 82%;
+  width: 86%;
 }
 
 .app {
@@ -17,45 +31,15 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
   box-sizing: border-box;
 }
-
-header {
-  background-color: #2c3e50;
-  color: #ecf0f1;
-  text-align: center;
-  padding: 20px 0;
+.app-content {
+  padding: 20px;
+}
+:root {
+  --color-text-secondary: black; /* Define your custom CSS variable */
 }
 
-header h1 {
-  margin: 0;
-  font-size: 24px;
-}
-
-header p {
-  margin: 5px 0;
-  font-size: 16px;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-nav a {
-  color: #ecf0f1;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px 15px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease-in-out;
-}
-
-nav a:hover {
-  background-color: #34495e;
-}
 section {
   width: 100%;
   max-width: 800px;

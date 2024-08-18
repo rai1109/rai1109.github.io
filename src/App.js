@@ -10,18 +10,21 @@ import Footer from './data/Footer';
 
 function App() {
   return (
-    <Router>
       <div className="app">
         <Header />
-        <Routes>
-          <Route path="/" exact element={<Experience/>} />
-          <Route path="/skills" element={<Skills/>} />
-          <Route path="/projects" element={<Projects/>} />
-          {/* <Route path="/contact" component={Contact} /> */}
-        </Routes>
+        <div className='app-content'>
+          <div id="exp" className='exp-content'>
+            <Experience />
+          </div>
+          <div id="skills" className="skill-content">
+            <Skills />
+          </div>
+          <div id="projects" className='project-content'>
+            <Projects />
+          </div>
+        </div>
         <Footer />
       </div>
-    </Router>
   );
 }
 
