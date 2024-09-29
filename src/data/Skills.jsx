@@ -48,8 +48,8 @@ const Skills = () => {
       </div>
 
       <div className="skill-item">
-        <h3>SQL</h3>
-        <p>Knowledgeable in SQL for relational database management and querying.</p>
+        <h3>Amazon Redshift</h3>
+        <p>Knowledgeable in relational database management and querying.</p>
       </div>
 
     </div>
